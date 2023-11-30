@@ -1,0 +1,22 @@
+[package]
+name = "aoc-session"
+edition = "2021"
+version = "0.1.0"
+authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
+description = "Get the session cookie value for Advent of Code easily"
+documentation = "https://docs.rs/aoc-session"
+readme = "README.md"
+keywords = [
+    "aoc",
+    "advent",
+    "code",
+    "session",
+    "cookie",
+]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/JohnScience/aoc-session"
+
+[dependencies]
+anyhow = "1"
+rookie = "0.3"
+thiserror = "1"
