@@ -22,3 +22,7 @@ fn main() {
     println!("My session ID: {}", session_id);
 }
 ```
+
+## Learn more
+
+This crate was born while preparing [the presentation](https://docs.google.com/presentation/d/1v5IM6GbMgvC2EVPQnJ1-adwQONMmLOWmDeGGE6Ehx-U/edit?usp=sharing) for Calgary Rust community. It better explains what this crate provides and how it works.
