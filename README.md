@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/crates/l/aoc-session)](https://crates.io/crates/aoc-session)
 [![Dependency Status](https://deps.rs/repo/github/JohnScience/aoc-session/status.svg)](https://deps.rs/repo/github/JohnScience/aoc-session)
 
-## Usage
+## Usage (library)
 
 ```rust
 use aoc_session::aoc_session;
@@ -21,6 +21,18 @@ fn main() {
     assert!(session_id.len() > 0);
     println!("My session ID: {}", session_id);
 }
+```
+
+## Installation (executable)
+
+```console
+cargo install aoc-session
+```
+
+## Usage (executable)
+
+```console
+aoc-session
 ```
 
 ## Learn more
